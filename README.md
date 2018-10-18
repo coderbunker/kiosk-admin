@@ -3,17 +3,17 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
 
 ## Setup
-1. Install nodejs, angular
+1. Install nodejs
 2. Checkout project
-3. Run npm install in project folder
+3. Run `npm install` in project folder
 4. Run locally with `ng serve --open`
 
 ## Deploy
 
+1. Run `npm install -g firebase-tools` (Only first time)
 1. Run `ng build --prod`
-2. Install firebase cli
-3. Run `firebase login`
-4. Run `firebase deploy` in project folder
+2. Run `firebase login`
+3. Run `firebase deploy` in project folder
 
 ## Further help
 
