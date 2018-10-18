@@ -21,3 +21,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 [Firebase Console](https://console.firebase.google.com/project/kiosk-app-210502/overview)
 
+### Related Projects
+[kiosk-android](https://github.com/coderbunker/kiosk-android)
+
+[kiosk-web](https://github.com/coderbunker/kiosk-web)
+
