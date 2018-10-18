@@ -1,0 +1,8 @@
+<h1 *ngIf="configuration">{{configuration.deviceLabel}}</h1>
+<div>
+  <input *ngIf="configuration" #url [value]="configuration.url" (input)="configuration.url = $event.target.value">
+</div>
+<div>
+  <button (click)="save()" >Save</button>
+  <button (click)="back()" >Cancel</button>
+</div>

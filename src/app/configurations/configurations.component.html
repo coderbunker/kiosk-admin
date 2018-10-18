@@ -1,0 +1,24 @@
+<div>
+    <h2>Configurations</h2>
+</div>
+<div>
+<label>Group label:
+    <input #groupLabel (keydown.enter)="getConfigs(groupLabel.value);"/>
+</label>
+<button (click)="getConfigs(groupLabel.value);">
+    Search
+</button>
+</div>
+<div>
+    <h2>Devices:</h2>
+</div>
+<div>
+<ul>
+    <p *ngIf="encryptedConfigs === undefined || encryptedConfigs === null || encryptedConfigs.length === 0">No devices found with group label</p>
+  <li *ngFor="let config of encryptedConfigs">
+      <a routerLink="/detail/{{config.key}}">
+      {{config.payload.val().deviceLabel}}
+      </a>
+  </li>
+</ul>
+</div>

@@ -1,0 +1,12 @@
+<div>
+  <h2 md-dialog-title>Enter passphrase</h2>
+  {{data}}
+  <mat-dialog-content>
+      <input #passphrase matInput placeholder="Passphrase" (keydown.enter)="onCloseConfirm(passphrase.value)">
+  </mat-dialog-content>
+
+  <mat-dialog-actions>
+    <button md-raised-button (click)="onCloseConfirm(passphrase.value)">CONFIRM</button>&nbsp;
+    <button md-raised-button (click)="onCloseCancel()">CANCEL</button>
+  </mat-dialog-actions>
+</div>
