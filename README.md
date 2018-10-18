@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1. Run `npm install -g firebase-tools` (Only first time)
 1. Run `ng build --prod`
 2. Run `firebase login`
-3. Run `firebase deploy` in project folder
+3. Run `firebase deploy`
 
 ## Further help
 
