@@ -26,3 +26,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 [kiosk-web](https://github.com/coderbunker/kiosk-web)
 
+[Project board](https://github.com/orgs/coderbunker/projects/1)
